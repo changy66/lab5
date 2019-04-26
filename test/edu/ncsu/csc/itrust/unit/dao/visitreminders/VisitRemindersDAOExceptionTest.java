@@ -1,9 +1,9 @@
 package edu.ncsu.csc.itrust.unit.dao.visitreminders;
 
-import junit.framework.TestCase;
 import edu.ncsu.csc.itrust.dao.mysql.VisitRemindersDAO;
 import edu.ncsu.csc.itrust.exception.DBException;
 import edu.ncsu.csc.itrust.unit.testutils.EvilDAOFactory;
+import junit.framework.TestCase;
 
 public class VisitRemindersDAOExceptionTest extends TestCase {
 	private VisitRemindersDAO evilDAO = EvilDAOFactory.getEvilInstance().getVisitRemindersDAO();
