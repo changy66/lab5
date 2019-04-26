@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d83375e-91f3-4bb5-9552-135f1ae07566" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/ncsu/csc/itrust/beans/a.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iTrust.iml" beforeDir="false" afterPath="$PROJECT_DIR$/iTrust.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/ncsu/csc/itrust/beans/CustomizedApptFacadeBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/ncsu/csc/itrust/beans/CustomizedApptFacadeBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/edu/ncsu/csc/itrust/unit/dao/visitreminders/VisitRemindersDAOExceptionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/edu/ncsu/csc/itrust/unit/dao/visitreminders/VisitRemindersDAOExceptionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/ncsu/csc/itrust/beans/CustomizedApptNullBean.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/classes/" />
@@ -29,24 +25,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/edu/ncsu/csc/itrust/beans/CustomizedApptFacadeBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="67" column="1" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
+            <state relative-caret-position="255">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
-                <element signature="e#322#323#0" expanded="true" />
-                <element signature="e#361#362#0" expanded="true" />
+                <element signature="e#575#576#0" expanded="true" />
+                <element signature="e#603#604#0" expanded="true" />
+                <element signature="e#675#676#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/edu/ncsu/csc/itrust/beans/a.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -84,8 +72,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/test/edu/ncsu/csc/itrust/unit/dao/visitreminders/VisitRemindersDAOExceptionTest.java" />
-        <option value="$PROJECT_DIR$/src/edu/ncsu/csc/itrust/beans/CustomizedApptFacadeBean.java" />
         <option value="$PROJECT_DIR$/src/edu/ncsu/csc/itrust/beans/a.java" />
+        <option value="$PROJECT_DIR$/src/edu/ncsu/csc/itrust/beans/CustomizedApptFacadeBean.java" />
       </list>
     </option>
   </component>
@@ -168,7 +156,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="443" y="236" width="1400" height="758" extended-state="0" />
+    <frame x="391" y="99" width="1400" height="758" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -176,7 +164,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496318" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2496318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Dependency Viewer" weight="0.13063063" />
       <window_info anchor="bottom" id="Inspection Results" weight="0.32891566" />
@@ -198,7 +186,7 @@
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.2496318" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.2496318" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -212,21 +200,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/ncsu/csc/itrust/beans/a.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/ncsu/csc/itrust/beans/CustomizedApptFacadeBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="67" column="1" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
+        <state relative-caret-position="255">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#675#676#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/ncsu/csc/itrust/beans/a.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>

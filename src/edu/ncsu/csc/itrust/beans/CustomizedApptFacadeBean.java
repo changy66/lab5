@@ -7,10 +7,6 @@ public class CustomizedApptFacadeBean implements Serializable  {
 	private static final long serialVersionUID = -6474182977342257877L;
 	private CustomizedApptAbstract a;
 
-	public CustomizedApptFacadeBean ( ) {
-		a = new CustomizedApptNullBean();
-	}
-
 	public Integer getNumShow () { return a.getNumShow(); }
 	public Integer getNumDays () { return a.getNumDays(); }
 	public Timestamp getLastDay (Date d_start) { return a.getLastDay(d_start); }
@@ -18,17 +14,9 @@ public class CustomizedApptFacadeBean implements Serializable  {
 
 	// Simply set values; do not worry about contents
 	public void setNumShow (Integer show_in) {
-		if (a.getClass() == CustomizedApptNullBean.class) {
-			a = new CustomizedApptBean();
-		}
-
 		a.setNumShow(show_in);
 	}
 	public void setNumDays (Integer days_in) {
-		if (a.getClass() == CustomizedApptNullBean.class) {
-			a = new CustomizedApptBean();
-		}
-
 		a.setNumDays(days_in);
 	}
 
